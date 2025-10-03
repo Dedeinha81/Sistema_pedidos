@@ -50,7 +50,7 @@ Sistema_pedidos/
 
 ├── models.py           - Modelos ORM com SQLAlchemy
 
-├── crud.py             - Funções CRUD (Create, Read, Update, Delete)
+├── crud.py             - Funções CRUD (Create e Read) para clientes, produtos e pedidos
 
 ├── routes.py           - Definição das rotas da API
 
