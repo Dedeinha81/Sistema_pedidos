@@ -42,16 +42,21 @@ Permite gerenciar clientes, produtos e pedidos de forma simples. ✅
 Sistema_pedidos/
 │
 
-├── app.py # Roteamento e inicialização da API
+├── app.py              # Inicializa a API e define o roteamento principal
 
-├── create_tables.py # Criação das tabelas no banco
+├── create_tables.py    # Criação das tabelas no banco de dados
 
-├── models.py # Modelos ORM com SQLAlchemy
+├── database.py         # Configuração e conexão com PostgreSQL
 
-├── database.py # Conexão com PostgreSQL
+├── models.py           # Modelos ORM com SQLAlchemy
 
-└── requirements.txt # Dependências do projeto
+├── crud.py             # Funções CRUD (Create, Read, Update, Delete)
 
+├── routes.py           # Definição das rotas da API
+
+├── schemas.py          # Schemas Pydantic para validação de dados
+
+├── requirements.txt    # Lista de dependências do projeto
 
 ---
 
@@ -86,6 +91,7 @@ python create_tables.py
 ---
 
 🏃‍♂️ Como rodar a API
+
 uvicorn app:app --reload
 
 ---
