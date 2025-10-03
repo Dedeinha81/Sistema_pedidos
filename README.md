@@ -42,21 +42,21 @@ Permite gerenciar clientes, produtos e pedidos de forma simples. ✅
 Sistema_pedidos/
 │
 
-├── app.py              # Inicializa a API e define o roteamento principal
+├── app.py              - Inicializa a API e define o roteamento principal
 
-├── create_tables.py    # Criação das tabelas no banco de dados
+├── create_tables.py    - Criação das tabelas no banco de dados
 
-├── database.py         # Configuração e conexão com PostgreSQL
+├── database.py         - Configuração e conexão com PostgreSQL
 
-├── models.py           # Modelos ORM com SQLAlchemy
+├── models.py           - Modelos ORM com SQLAlchemy
 
-├── crud.py             # Funções CRUD (Create, Read, Update, Delete)
+├── crud.py             - Funções CRUD (Create, Read, Update, Delete)
 
-├── routes.py           # Definição das rotas da API
+├── routes.py           - Definição das rotas da API
 
-├── schemas.py          # Schemas Pydantic para validação de dados
+├── schemas.py          - Schemas Pydantic para validação de dados
 
-├── requirements.txt    # Lista de dependências do projeto
+├── requirements.txt    - Lista de dependências do projeto
 
 ---
 
